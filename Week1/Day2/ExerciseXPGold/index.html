@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Instrument+Serif:ital@0;1&family=Outfit:wght@100..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    *{
+        font-family: Poppins;
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background: url(img.jpg);
+        background-size: cover;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        background: rgb(236, 234, 231);
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    button{
+        color: white;
+        background-color: rgb(68, 151, 230);
+        border-radius: 5px;
+        padding: 5px 10px;
+        border-style: none;
+    }
+    .box1, .box2, .box3 {
+        text-align: center;
+        width: 150px;
+    }
+
+    .buttom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .logo{
+        font-size: 15px;
+    }
+
+    .menu a{
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        background: rgb(68, 151, 230);
+        border-radius: 5px;
+    }
+    .htext{
+        color: aliceblue;
+        position: absolute;
+        text-align: center;
+        max-width: 650px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1{
+        font-size: 30px;
+    }
+    input{
+        padding: 5px 60px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border-style: none;
+    }
+    p{
+        font-size: 12px;
+    }
+    svg{
+        width: 60px;
+    }
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Start Bootstrap
+            </div>
+    
+            <div class="menu">
+                <a href="#" target="_blank" rel="noopener noreferrer">Sign In</a>
+            </div>
+        </nav>
+        <section class="htext">
+            <h1>Build a landing page for your business or project and generate more leads!</h1>
+            <input type="email" name="email" id="email" placeholder="Enter your email...">
+            <button>Sign up!</button>
+        </section>
+    </header>
+
+    <div class="buttom">
+        <div class="box1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM512 64l0 288L64 352 64 64l448 0z"/></svg>
+            <h3>Fully Responsive</h3>
+            <p>This Theme will work great on any device, no matter the size!</p>
+        </div>
+    
+        <div class="box2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg>
+            <h3>Bootstrap 4 Ready</h3>
+            <p>Featuring the lastest build of the new Bootstrap 4 framework!</p>
+        </div>
+    
+        <div class="box3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
+            <h3>Easy to Use</h3>
+            <p>Ready to use with your own content or customize the source file!</p>
+        </div>
+    </div>
+    
+</body>
+</html>
