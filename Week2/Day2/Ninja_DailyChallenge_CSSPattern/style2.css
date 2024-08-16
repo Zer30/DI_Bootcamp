@@ -1,0 +1,51 @@
+body{
+    background:
+        linear-gradient( to right,
+             #cccccc 0% 25%,
+             #999999 25% 50%,
+             #666666 50% 75%,
+             #333333 75% 100%
+            );            
+    
+    
+            
+      background-size: 100px 100px;
+}
+
+.container{
+    background:
+    conic-gradient(from 90deg at 2px 2px,#ffffff 90deg,rgb(0, 0, 0) 0) 0 0/50px  50px;
+}
+/* *{
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1000, 1fr); 
+    margin: 5px;
+    column-gap: 5px;
+
+}
+
+
+.box1 {
+    background-color: #cccccc;
+}
+
+.box2{
+    background-color: #999999;
+}
+.box3{
+    background-color: #666666;
+}
+.box4{
+    background-color: #333333;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 100px;
+    height: 100px;
+
+} */

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: Poppins;
+}
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #32676d;
+    text-transform: uppercase;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #01a0da;
+    border-style: none;
+    color: white;
+    border-radius: 2px;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+p{
+    text-transform: uppercase;
+}
+
+.container{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.container1{
+    display: grid;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+#textfront{
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+.box1{
+    grid-column: span 3;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.box7, .box8, .box9{
+    margin-top: 20px;
+}
+
+.box8{
+    grid-column: span 3;
+    margin-top: 20px;
+}
+
+.box9{
+    margin-top: 20px;
+}
+
+.box10{
+    grid-column: span 3;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input{
+    border-style: none;
+    border-radius: 3px;
+}
+
+select{
+    width: 200px;
+    border-style: none;
+}
+
+.button1{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+}

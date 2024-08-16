@@ -1,0 +1,10 @@
+html{
+    background-image:
+        conic-gradient(
+             #e77f7e 0% 25%,
+             #d83e3c 25% 50%,
+             #e77f7e 50% 75%,
+             #ffffff 75% 100%
+             );
+      background-size: 100px 100px;
+}

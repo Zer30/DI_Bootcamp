@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: Poppins;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    max-height: 1000px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-bottom: 50px;
+}
+
+.box{
+    text-align: center;
+    border-radius: 3px;      
+}
+
+#box1{
+    grid-column: span 3;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-left: 250px;    
+    margin-bottom: 30px;   
+}
+
+
+p{
+    font-size:15px ;
+    color: rgb(71, 68, 68);
+}
+
+.p2{
+    background-color:rgb(10, 8, 8);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+#box2, #box3, #box4{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:white;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 60px;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+#tb2, #tb3, #tb4{
+    margin-top: 80%;
+    background-color: rgb(72, 79, 182);
+    border-radius: 5px;
+    height: 400px;
+}
+
+#icon{
+    padding-top: 20px;
+    font-size: 80px;
+    color: rgb(176, 169, 214);
+}
