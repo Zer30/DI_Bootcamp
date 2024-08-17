@@ -6,6 +6,7 @@ body{
 .container{
     padding: 10px;
     display: grid;
+    align-items: flex-start;
     grid-template-columns:1fr 1fr 1fr;
     max-height: 1000px;
     column-gap: 10px;
@@ -74,5 +75,9 @@ p{
 
 #tb3{
     background-color: #30cccc;
+}
+
+#box6{
+    margin-top: 50px;
 }
 
