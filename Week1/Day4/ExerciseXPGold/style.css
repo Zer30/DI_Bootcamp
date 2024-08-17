@@ -1,45 +1,61 @@
-*{
-    margin: 20px;
+.container{
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-
-
-
-
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
 }
+
+
 
 .form-container{
     display: grid;
-    background-color:rgb(238, 234, 229);
-    height: 300px;
+    justify-content: center;
     width: 300px;
-    border: 2px solid black;
-    align-content: center;
-    padding: 0;
-    
+    height:350px;
+    background-color: #fafafa;
+
 }
 
 .register-container{
+    text-align: center;
     display: grid;
-    background-color: rgb(150, 74, 137);
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
+    justify-content: center;
     align-content: center;
+    width: 300px;
+    height:350px;
+    background-color: #40234f;
+    color: white;
 }
 
-.login-button{
-    background-color: rgb(71, 36, 61);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+input{
+    margin-bottom: 10px;
+    border-style: none;
+    background-color: #eeeeee;
+    padding: 10px;
 }
-.register-button{
-    padding: 10px 20px;
-    background-color: rgb(150, 74, 137);
-    border: 2px solid white;
-    cursor: pointer;
-    border-radius: 50px;
+
+.icon-1{
+    font-size: 50px;
+
+}
+.login-button{
+    width: 190px;
+    height: 30px;
+    color: white;
+    background-color: #40234f;
+    border-style: none;
+}
+
+.register-button {
+    width: 150px;
+    height: 50px;
+    border-color: white;
+    border-style: solid;
+    background: none;
+    color: white;
+    border-radius: 30px;
+}
+
+.icons{
+    text-align: center;
 }
