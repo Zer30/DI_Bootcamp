@@ -5,15 +5,7 @@ body{
              #999999 25% 50%,
              #666666 50% 75%,
              #333333 75% 100%
-            ),
-            linear-gradient( to bottom,
-             #bd3030 0% 25%,
-             #a82d2d 25% 50%,
-             #e01818 50% 75%,
-             #333333 75% 100%
             );      
-              
-    
       background-size: 100px 100px;
       background-repeat: repeat;
 }
@@ -21,7 +13,7 @@ body{
 
 
 
-/* *{
+*{
     margin: 0;
 }
 
@@ -31,9 +23,7 @@ body{
     grid-template-columns: repeat(1000, 1fr); 
     margin: 5px;
     column-gap: 5px;
-
 }
-
 
 .box1 {
     background-color: #cccccc;
@@ -53,4 +43,4 @@ body{
     width: 100px;
     height: 100px;
 
-} */
+}
