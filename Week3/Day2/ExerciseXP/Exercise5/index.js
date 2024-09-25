@@ -1,37 +1,38 @@
 typeof(15)
 // Prediction:Number
-// Actual:Number
+// Actual:'number'
+
 typeof(5.5)
 // Prediction:Number
-// Actual:Number
+// Actual:'number'
 
 typeof(NaN)
-// Prediction:NaN
-// Actual:Number
+// Prediction:Undefined
+// Actual:'number' (Not a Number)
 
 typeof("hello")
 // Prediction:String
-// Actual:String
+// Actual:'string'
 
 typeof(true)
 // Prediction:Boolean
-// Actual:Boolean
+// Actual:'boolean'
 
 typeof(1 != 2)
-// Prediction:Numbers
-// Actual:Boolean
+// Prediction:Boolean
+// Actual:'boolean'
 
 "hamburger" + "s"
 // Prediction:hamburgers
-// Actual:hamburgers
+// Actual:'hamburgers'
 
 "hamburgers" - "s"
 // Prediction:hamburger
-// Actual:Nan
+// Actual:NaN
 
 "1" + "3"
 // Prediction:13
-// Actual:13
+// Actual:'13'
 
 "1" - "3"
 // Prediction:-2
@@ -39,24 +40,24 @@ typeof(1 != 2)
 
 "johnny" + 5
 // Prediction:johnny5
-// Actual:johnny5
+// Actual:'johnny5'
 
 "johnny" - 5
 // Prediction:NaN
-// Actual:Nan
+// Actual:NaN
 
 99 * "hello"
 // Prediction:NaN
 // Actual:NaN
 
 1 != 1
-// Prediction:1
-// Actual:False
+// Prediction:false
+// Actual:false
 
 1 == "1"
-// Prediction:True
+// Prediction:true
 // Actual:True
 
 1 === "1"
-// Prediction:True
-// Actual:False
+// Prediction:true
+// Actual:False ("1" is string)

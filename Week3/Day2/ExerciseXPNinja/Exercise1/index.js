@@ -1,39 +1,39 @@
 5 >= 1
-// Prediction:True
+// Prediction:true
 // Actual:true
 
 0 === 1
-// Prediction:False
+// Prediction:false
 // Actual:false
 
 4 <= 1
-// Prediction:False
+// Prediction:false
 // Actual:false
 
 1 != 1
-// Prediction:True
+// Prediction:false
 // Actual:false
 
 "A" > "B"
-// Prediction:False
+// Prediction:false
 // Actual:false
 
 "B" < "C"
-// Prediction:True
+// Prediction:false
 // Actual:true
 
 "a" > "A"
-// Prediction:False
-// Actual:True
+// Prediction:true
+// Actual:true
 
 "b" < "A"
-// Prediction:False
+// Prediction:false
 // Actual:false
 
 true === false
-// Prediction:False
+// Prediction:false
 // Actual:false
 
 true != true
-// Prediction:False
+// Prediction:false
 // Actual:false

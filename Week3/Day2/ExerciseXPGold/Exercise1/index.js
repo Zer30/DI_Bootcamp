@@ -1,3 +1,3 @@
 let sentence = ["my", "favorite", "color", "is", "blue"];
-let result = sentence.join(" ");
-console.log(result);
+let joinsentence = sentence.join(" ");
+console.log(joinsentence);

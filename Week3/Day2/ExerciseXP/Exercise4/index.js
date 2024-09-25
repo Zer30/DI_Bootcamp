@@ -1,16 +1,19 @@
-let c; //Undefined or 0
+let c; 
 let a = 34;
 let b = 21;
-// Prediction:55
-// Actual:55
-console.log(a+b)
+
+console.log(a+b) //first expression
+// Prediction: 55
+// Actual: 55 
 
 a = 2;
+console.log(a+b) //second expression
 // Prediction:23
-// Actual:23
-console.log(a+b)
+// Actual: 23
+
+console.log(c)
+// c is undefined
 
 console.log(3 + 4 + '5');
-// Prediction:12
-// Actual:75 (3+4=7 +'5' =75)
-
+// Prediction:75
+// Actual: 75
