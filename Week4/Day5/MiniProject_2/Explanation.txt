@@ -1,0 +1,25 @@
+Explanation of the Code:
+Player 1 Input:
+
+Prompts Player 1 to input a word with at least 8 letters.
+Validates the input to ensure it meets the length requirement.
+Game Setup:
+
+Creates a hiddenWord string filled with * matching the length of the chosen word.
+Initializes an array guessedLetters to track guessed letters and an attemptsLeft counter set to 10.
+Game Loop:
+
+Continuously prompts Player 2 for a letter until they either guess the word or run out of attempts.
+Validates the guess to ensure it’s a single alphabetic character and hasn’t been guessed before.
+Guess Processing:
+
+If the guessed letter is in the word:
+Updates the hiddenWord to reveal the guessed letter in all correct positions.
+Checks if all letters are revealed (win condition).
+If the guessed letter is not in the word:
+Decreases the attemptsLeft counter and informs Player 2.
+Displays the list of all guessed letters after each turn.
+End of Game:
+
+If Player 2 reveals all letters, displays a "CONGRATS YOU WIN" message.
+If Player 2 runs out of attempts, reveals the correct word and displays "YOU LOSE."

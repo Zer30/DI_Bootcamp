@@ -1,0 +1,24 @@
+Explanation of the Code:
+playTheGame function:
+
+Starts by asking the user if they want to play using confirm().
+If the user chooses not to play, the game ends with a goodbye message.
+Prompts the user for a valid number using a while loop to ensure input validation.
+Input Validation:
+
+Ensures the user enters a numeric value.
+Checks that the number is between 0 and 10. If not, the loop continues until the user provides valid input.
+Random Computer Number:
+
+Uses Math.random() and Math.floor() to generate a random integer between 0 and 10.
+compareNumbers function:
+
+Takes the user's number and the computer's number as arguments.
+Compares the two numbers:
+Alerts "WINNER!" if they match.
+Alerts hints if the user's number is higher or lower.
+Gives the user up to 3 attempts to guess correctly.
+Ends the game with a message if the user runs out of attempts.
+Bonus:
+
+Ensures continuous input until the user provides a valid number, preventing abrupt termination for invalid inputs.
